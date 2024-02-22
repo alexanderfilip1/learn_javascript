@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <a href="/" class="header__logo">FRONTEND</a>
+    <ul class="header__navbar">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </header>
+  <main class="main">
+    <input type="text" id="input-js" class="input">
+    <button onclick="changeText()">Adauga Text</button>
+    <h1 class="main__header" id="header-js"></h1>
+    <section class="section">
+      <h2 class="section__header" id="section__header-js">Section 1</h2>
+      <p class="section__text" id="section__text-js">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Quaerat quidem quibusdam quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat</p>
+      <h2 class="section__header">Section 2</h2>
+      <p class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Quaerat quidem quibusdam quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat</p>
+      <h2 class="section__header">Section</h2>
+      <p class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Quaerat quidem quibusdam quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat</p>
+    </section>
+    <section class="section">
+      <div id="user-info">
+
+      </div>
+    </section>
+    <section class="section">
+      <h1 style="text-align: center;">Task Manager</h1>
+      <div class="task-wrapper" id="wrapper-js">
+        <div class="task-box">
+          <h2>Task 1</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Quaerat quidem quibusdam quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat </p>
+          <button onclick="taskDelete(this.parentNode)" class="task-delete">Delete</button>
+        </div>        
+        <div class="task-box">
+          <h2>Task 2</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Quaerat quidem quibusdam quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat </p>
+          <button onclick="taskDelete(this.parentNode)" class="task-delete">Delete</button>
+        </div>
+        
+        <div class="task-box">
+          <h2>Task 3</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Quaerat quidem quibusdam quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat quaerat </p>
+          <button onclick="taskDelete(this.parentNode)" class="task-delete">Delete</button>
+        </div>
+        
+
+      </div>
+      <div class="task-manager">
+       <i class="task__manager-text">Add a task</i> </br> 
+       Title <input type="text" id="title-js" class="input"> </br>
+       Content <input type="text" id="content-js" class="input"> </br>
+       <button class="task-button" onclick="addPost()">Add</button>
+      </div>
+    </section>
+  </main>
+  <hr>
+  <footer class="footer">
+    <a href="/">FRONTEND</a>
+    <h1> <a class="footer__link" href="https://alexanderfilip.dev">Created by Alexander Filip</a></h1>
+  </footer>
+</body>
+<script src="/js/index.js"></script>
+</html>
