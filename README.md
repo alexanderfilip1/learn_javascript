@@ -1,4 +1,4 @@
-As I present my project, "learn_javascript," it encapsulates various JavaScript code examples and exercises tailored for beginners and those looking to solidify their knowledge in the JavaScript programming language.
+As I present my project "learn_javascript," it encapsulates various JavaScript code examples and exercises tailored for beginners and those looking to solidify their knowledge in the JavaScript programming language.
 
 The repository is structured to encompass a variety of modules and practical examples covering different aspects of the JavaScript language, including DOM manipulation, working with arrays and objects, utilizing functions, promises, and object-oriented programming concepts.
 
